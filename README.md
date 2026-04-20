@@ -13,14 +13,16 @@ A lightweight **C++17** demo implementing **Newton-Raphson** root-finding and **
 ## Quick Run
 ```bash
 g++ main.cpp -o numerical_demo && ./numerical_demo
+```
 
 ## 🏗️ Project Structure
+```text
 numerical-methods-cpp-demo/
 ├── main.cpp      
 ├── README.md                    
 ├── data.png
 └── requirements.txt
-
+```
 
 ## 👩‍💻 Author
 Shi-Ning Caren Yang
