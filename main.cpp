@@ -1,4 +1,4 @@
-%%writefile new_main.cpp
+%%writefile main.cpp
 #include <iostream>
 #include <cmath>
 using namespace std;
