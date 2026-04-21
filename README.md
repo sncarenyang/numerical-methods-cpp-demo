@@ -42,12 +42,17 @@ Users can interactively select methods and input parameters via CLI.
  4. Simpson’s Rule (integrate sin(x))
  5. Exit
 
-## 🚀 How to Run
-
+## 🛠 Build & Run (Recommended)
 ### **Local / GitHub Codespaces**
+This project uses a Makefile to simplify compilation and execution.
 ```bash
 make
 make run
+```
+to clean
+
+```bash
+
 make clean
 ```
 ### **Google Colab**
@@ -101,10 +106,10 @@ g++ main.cpp numerical_methods.cpp -o numerical_demo -std=c++17
 ## 🏗️ Project Structure
 ```text
 numerical-methods-cpp-demo/
-├── main.cpp
-├── numerical-methods.h
-├── numerical-methods.cpp
-├── Makefile
+├── main.cpp               #CLI interface
+├── numerical-methods.h    #function declarations
+├── numerical-methods.cpp  #algorithm implementations
+├── Makefile               #build system
 ├── .gitignore
 ├── README.md                    
 └── LICENSE
@@ -121,12 +126,14 @@ This project demonstrates:
 
 
 ## 💡 Highlights
--	Built an interactive CLI-based numerical methods toolkit in C++
--	mplemented both root-finding and integration algorithms
--	Improved robustness with convergence checks and input validation
--	Refactored into modular .h + .cpp structure
--	Ensured compatibility across Codespaces and Colab
 
+- Built an interactive CLI-based numerical methods toolkit in C++
+- Implemented root-finding and numerical integration algorithms from scratch
+- Designed modular architecture using header/source separation
+- Managed multi-file compilation with a Makefile-based build system
+- Added convergence control, input validation, and robustness checks
+- Ensured reproducibility across Codespaces and Colab environments
+  
 ## 📈 Future Improvements
 -	Add Secant Method
 -	Compare convergence speed (Newton vs Bisection)
