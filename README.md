@@ -104,35 +104,31 @@ numerical-methods-cpp-demo/
 ├── numerical-methods.h
 ├── numerical-methods.cpp   
 ├── README.md                    
-└──LICENSE
+└── LICENSE
 ```
 
 
 ## 🎯 Why This Project Matters
-
 This project demonstrates:
-	•	Strong C++ programming fundamentals
-	•	Implementation of classical numerical algorithms
-	•	Understanding of convergence and error control
-	•	Ability to design modular and reusable code
-	•	Experience adapting code across multiple environments
-
-
-
-## 📈 Future Improvements
-	•	Add Secant Method
-	•	Compare convergence speed (Newton vs Bisection)
-	•	Add error analysis and visualization
-	•	Extend to differential equation solvers
-
+-	Strong C++ programming fundamentals
+-	Implementation of classical numerical algorithms
+-	Understanding of convergence and error control
+-	Ability to design modular and reusable code
+-	Experience adapting code across multiple environments
 
 
 ## 💡 Highlights
-	•	Built an interactive CLI-based numerical methods toolkit in C++
-	•	Implemented both root-finding and integration algorithms
-	•	Improved robustness with convergence checks and input validation
-	•	Refactored into modular .h + .cpp structure
-	•	Ensured compatibility across Codespaces and Colab
+-	Built an interactive CLI-based numerical methods toolkit in C++
+-	mplemented both root-finding and integration algorithms
+-	Improved robustness with convergence checks and input validation
+-	Refactored into modular .h + .cpp structure
+-	Ensured compatibility across Codespaces and Colab
+
+## 📈 Future Improvements
+-	Add Secant Method
+-	Compare convergence speed (Newton vs Bisection)
+-	Add error analysis and visualization
+-	Extend to differential equation solvers
 
 
 ## 👩‍💻 Author
