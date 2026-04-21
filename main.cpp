@@ -1,4 +1,4 @@
-%%writefile main.cpp
+//%%writefile main.cpp
 #include <iostream>
 #include <cmath>
 #include <limits>
