@@ -117,7 +117,7 @@ This project demonstrates:
 	•	Ability to design modular and reusable code
 	•	Experience adapting code across multiple environments
 
-⸻
+
 
 ## 📈 Future Improvements
 	•	Add Secant Method
@@ -125,7 +125,7 @@ This project demonstrates:
 	•	Add error analysis and visualization
 	•	Extend to differential equation solvers
 
-⸻
+
 
 ## 💡 Highlights
 	•	Built an interactive CLI-based numerical methods toolkit in C++
@@ -135,11 +135,9 @@ This project demonstrates:
 	•	Ensured compatibility across Codespaces and Colab
 
 
-
-
 ## 👩‍💻 Author
 Shi-Ning Caren Yang
 
-🌐 License & Disclaimer
+## 🌐 License & Disclaimer
 The code is released under the MIT License.
 It is intended for educational / demonstration purposes, not for production‑level scientific computing.
