@@ -46,8 +46,9 @@ Users can interactively select methods and input parameters via CLI.
 
 ### **Local / GitHub Codespaces**
 ```bash
-g++ main.cpp numerical_methods.cpp -o numerical_demo -std=c++17
-./numerical_demo
+make
+make run
+make clean
 ```
 ### **Google Colab**
 ```bash
