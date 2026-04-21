@@ -102,7 +102,9 @@ g++ main.cpp numerical_methods.cpp -o numerical_demo -std=c++17
 numerical-methods-cpp-demo/
 ├── main.cpp
 ├── numerical-methods.h
-├── numerical-methods.cpp   
+├── numerical-methods.cpp
+├── Makefile
+├── .gitignore
 ├── README.md                    
 └── LICENSE
 ```
