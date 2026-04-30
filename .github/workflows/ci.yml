@@ -18,5 +18,4 @@ jobs:
       run: sudo apt update && sudo apt install -y build-essential g++
     
     - name: Debug files & Makefile
-      run
-      
+    run
