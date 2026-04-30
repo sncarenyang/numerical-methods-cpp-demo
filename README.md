@@ -55,6 +55,10 @@ to clean
 
 make clean
 ```
+Example Output
+![demo1.png](/images/ex_nt.png)
+![demo2.png](/images/ex_sin.png)
+
 ### **Google Colab**
 ```bash
 %%bash
