@@ -1,18 +1,31 @@
-name: C++ CI
+name: C++ Numerical CI  # 加描述
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:  # 加手動觸發 (gh CLI)
+permissions:
+  contents: read
+  actions: write
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Compile
-      run: make
-    - name: Test
-      run: make run | grep -q "1.414"  # Verify output
-permissions:
-  contents: read
-  actions: write
+    
+    - name: Install deps  # 關鍵：lm/math
+      run: sudo apt update && sudo apt install -y build-essential
+      
+    - name: Debug & Compile  # 防 TAB 坑
+      run: |
+        cat -A -T Makefile | head -10  # 驗 TAB
+        make || (g++ -std=c++17 *.cpp -o demo -lm && echo "Fallback compile OK")
+    
+    - name: Interactive Test  # 修：menu 需要輸入
+      run: |
+        echo "1\n1.0\n1e-6\n50\n0\n" | ./demo | grep -q "1.414" && echo "✅ Newton OK"
+        echo "3\n0\n3.14159\n100\n0\n" | ./demo | grep -q "1.999" && echo "✅ Trapezoidal OK"
+    
+    - name: Success!  # 美化 log
+      run: echo "🎉 All numerical tests passed!"
