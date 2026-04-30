@@ -160,3 +160,5 @@ Shi-Ning Caren Yang
 ## 🌐 License & Disclaimer
 The code is released under the MIT License.
 It is intended for educational / demonstration purposes, not for production‑level scientific computing.
+
+![Repo Graph](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=Numerical-methods-toolkit&show_icons=true)[web:82]
