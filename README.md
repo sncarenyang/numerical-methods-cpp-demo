@@ -124,7 +124,11 @@ numerical-methods-cpp-demo/
 ├── numerical-methods.cpp  #algorithm implementations
 ├── Makefile               #build system
 ├── .gitignore
-├── README.md                    
+├── README.md
+├── .github/workflow/ci.yml
+├── images/                       
+│   ├── ex_nt.png          # demo output of Newton-Raphson
+│   └── ex_sin.png         # demo output of Trapezoidal Rule 
 └── LICENSE
 ```
 
