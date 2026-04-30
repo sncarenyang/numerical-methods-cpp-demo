@@ -55,8 +55,12 @@ to clean
 
 make clean
 ```
-Example Output
+#### Example Output
+
+##### Newton-Raphson
 ![demo1.png](/images/ex_nt.png)
+
+##### Trapezoidal Rule
 ![demo2.png](/images/ex_sin.png)
 
 ### **Google Colab**
