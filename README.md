@@ -1,3 +1,7 @@
+[![Build](https://github.com/sncarenyang/Numerical-methods-toolkit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sncarenyang/Numerical-methods-toolkit/actions)
+[![License](https://img.shields.io/github/license/sncarenyang/Numerical-methods-toolkit)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/sncarenyang/Numerical-methods-toolkit?style=social)](https://github.com/sncarenyang/Numerical-methods-toolkit)
+
 # 🔢 Numerical Methods C++ Toolkit
 
 An interactive C++ toolkit implementing fundamental numerical methods for scientific computing.
@@ -5,6 +9,7 @@ An interactive C++ toolkit implementing fundamental numerical methods for scient
 This project demonstrates root-finding and numerical integration algorithms through a modular and user-friendly command-line interface (CLI).
 
 ---
+
 
 ## 🧠 Overview
 
