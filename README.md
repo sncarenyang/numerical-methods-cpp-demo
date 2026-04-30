@@ -1,3 +1,4 @@
+
 [![Build](https://github.com/sncarenyang/Numerical-methods-toolkit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sncarenyang/Numerical-methods-toolkit/actions)
 [![License](https://img.shields.io/github/license/sncarenyang/Numerical-methods-toolkit)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/sncarenyang/Numerical-methods-toolkit?style=social)](https://github.com/sncarenyang/Numerical-methods-toolkit)
@@ -165,4 +166,8 @@ Shi-Ning Caren Yang
 The code is released under the MIT License.
 It is intended for educational / demonstration purposes, not for production‑level scientific computing.
 
-![Repo Graph](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=Numerical-methods-toolkit&show_icons=true)[web:82]
+## 📊 Repo Stats
+
+[![Repo Graph](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=Numerical-methods-toolkit&show_icons=true&theme=radical)](https://github.com/sncarenyang/Numerical-methods-toolkit)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sncarenyang&layout=compact&theme=radical)](https://github.com/sncarenyang/Numerical-methods-toolkit)
